@@ -5,7 +5,7 @@ import { ReactRouter, Route, Link } from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <ReactRouter basename="/">
+
         <div>
           <ul>
             <li><Link to="/">Home</Link></li>
@@ -17,7 +17,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
         </div>
-      </ReactRouter>
+
     );
   }
 }
